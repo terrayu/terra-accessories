@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TERRA Accessories</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <img src="img/logo.png" class="logo" alt="TERRA Accessories Logo">
+  <p class="tagline">Beauty in the Details</p>
+
+  <div class="lang-switch">
+    <button onclick="setLang('en')">EN</button>
+    <button onclick="setLang('mm')">MM</button>
+  </div>
+</header>
+
+<section id="home">
+  <h2 class="en">Stainless Steel Accessories for Everyday Style</h2>
+  <h2 class="mm">နေ့စဉ်ဝတ်ဆင်ဖို့ Accessories များ</h2>
+</section>
+
+<section id="products">
+  <h2 class="en">Products</h2>
+  <h2 class="mm">ပစ္စည်းများ</h2>
+
+  <div class="product-grid">
+
+    <div class="product-card">
+      <img src="img/earring.jpg">
+      <h3 class="en">Earrings</h3>
+      <h3 class="mm">နားကပ်</h3>
+      <p class="price" data-price="15000"></p>
+      <button onclick="orderTikTok('Earrings')" class="order-btn">Order via TikTok</button>
+    </div>
+
+    <div class="product-card">
+      <img src="img/bracelet.jpg">
+      <h3 class="en">Bracelets</h3>
+      <h3 class="mm">လက်ပတ်</h3>
+      <p class="price" data-price="18000"></p>
+      <button onclick="orderTikTok('Bracelet')" class="order-btn">Order via TikTok</button>
+    </div>
+
+    <div class="product-card">
+      <img src="img/necklace.jpg">
+      <h3 class="en">Necklaces</h3>
+      <h3 class="mm">လည်ဆွဲ</h3>
+      <p class="price" data-price="22000"></p>
+      <button onclick="orderTikTok('Necklace')" class="order-btn">Order via TikTok</button>
+    </div>
+
+    <div class="product-card">
+      <img src="img/ring.jpg">
+      <h3 class="en">Rings</h3>
+      <h3 class="mm">လက်စွပ်</h3>
+      <p class="price" data-price="12000"></p>
+      <button onclick="orderTikTok('Ring')" class="order-btn">Order via TikTok</button>
+    </div>
+
+    <div class="product-card">
+      <img src="img/waistchain.jpg">
+      <h3 class="en">Waist Chain</h3>
+      <h3 class="mm">ခါးပတ်ကြိုး</h3>
+      <p class="price" data-price="20000"></p>
+      <button onclick="orderTikTok('Waist Chain')" class="order-btn">Order via TikTok</button>
+    </div>
+
+    <div class="product-card">
+      <img src="img/unisex.jpg">
+      <h3 class="en">Unisex Chains</h3>
+      <h3 class="mm">ချိန်း</h3>
+      <p class="price" data-price="25000"></p>
+      <button onclick="orderTikTok('Unisex Chain')" class="order-btn">Order via TikTok</button>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 TERRA Accessories</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
